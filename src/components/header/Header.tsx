@@ -1,19 +1,7 @@
+import "./header.scss";
 
-
-
-
-import "./header.scss"
-import React from 'react'
-
-import logo from "./assets/favicon.svg?url";
+import logo from "./public/favicon.svg?url";
 
 export default function Header() {
-  return (
-
-
-      <img src={logo} />
-
-
-
-  );
+  return <img src={logo} />;
 }
