@@ -1,7 +1,20 @@
 import "./header.scss";
 
-import logo from "./public/favicon.svg?url";
+import logo from "/favicon.svg?url";
 
 export default function Header() {
-  return <img src={logo} />;
+  return (
+    <header>
+      <nav>
+        <img src={logo} />
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Blogs</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
 }

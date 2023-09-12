@@ -1,0 +1,49 @@
+$primary-color: #7ED321;
+
+header {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 4rem;
+  width: 100%;
+
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-inline: auto;
+  width: 100rem;
+}
+
+header > nav > img {
+  width: 2rem;
+  height: 2rem;
+
+
+  &:hover {
+    cursor: pointer;
+
+    filter: drop-shadow(0 0 8px $primary-color);;
+  }
+}
+
+header > nav > ul {
+  display: flex;
+  column-gap: 2rem;
+  list-style: none;
+
+
+  text-shadow: 1rem;
+
+
+}
+
+header > nav > ul > li {
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
