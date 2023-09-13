@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <img src={logo} />
-        <ul>
+        <img src={logo} className="logo" />
+        <ul className="nav-list">
           <li>Home</li>
           <li>About</li>
           <li>Projects</li>
