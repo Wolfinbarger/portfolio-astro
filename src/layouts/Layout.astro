@@ -1,5 +1,7 @@
 ---
-import Header from '../components/header/Header.jsx'
+import Header from '../components/header/Header.tsx'
+import Footer from '../components/footer/Footer.tsx'
+import '../global.scss'
 
 interface Props {
 	title: string;
@@ -20,5 +22,6 @@ const { title } = Astro.props;
 	</head>
 	<body>
     <Header />
+    <Footer />
 	</body>
 </html>
