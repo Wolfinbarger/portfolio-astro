@@ -8,17 +8,16 @@ export default function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="">
+          <a href="mailto:xzaiver.wolfinbarger@gmail.com">
             <FontAwesomeIcon
               icon={faEnvelope}
               style={{ color: "#7ed321" }}
               className="envelope"
-              href="xzaiver.wolfinbarger@gmail.com"
             />
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.linkedin.com/in/xwolfinbarger/">
             <FontAwesomeIcon
               icon={faLinkedin}
               style={{ color: "#7ed321" }}
