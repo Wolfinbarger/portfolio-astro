@@ -11,7 +11,7 @@ export default function Header() {
           <li>Home</li>
           <li>About</li>
           <li>Projects</li>
-          <li>Blogs</li>
+          {/* <li>Blogs</li> */}
           <li>Contact</li>
         </ul>
       </nav>
