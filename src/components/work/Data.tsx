@@ -64,11 +64,8 @@ export const projectData = [
     source: "https://github.com/DanielBScharf/word_quest",
     tags: [
       "devicon-html5-plain",
-      "devicon-sass-original",
+      "devicon-css3-original",
       "devicon-javascript-plain",
-      "devicon-ruby-plain",
-      "devicon-rails-plain",
-      "devicon-postgresql-plain",
     ],
   },
 ];
