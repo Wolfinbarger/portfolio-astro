@@ -8,14 +8,23 @@ $primary-color: #7ED321;
   overflow: hidden;
   align-items: center;
   gap: 30px;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 8px;
+  padding: 8px;
+}
 
+.skills__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin: 16px;
 }
 
 .row {
   display: flex;
   flex-direction: row;
   flex: 1;
-  column-gap: 25px;
+  column-gap: 35px;
 }
 
 .skills img {

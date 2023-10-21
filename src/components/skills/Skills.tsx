@@ -2,10 +2,10 @@ import "./skills.scss";
 
 export default function Skills() {
   return (
-    <>
-      <h2>Skills</h2>
+    <section className="skills">
+      <h2>My Skills</h2>
 
-      <div className="skills">
+      <div className="skills__content">
         <div className="row">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -33,6 +33,6 @@ export default function Skills() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
         </div>
       </div>
-    </>
+    </section>
   );
 }
