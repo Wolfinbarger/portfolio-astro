@@ -7,6 +7,17 @@ export default function Hero() {
   return (
     <>
       <div className="hero">
+        <div>
+          <h1>Hi, I'm X'Zaiver</h1>
+          <h3> Fullstack Developer</h3>
+          <p>
+            I'm a web developer based in the USA. I enjoy building fullstack
+            applications with React and Rails.
+          </p>
+          {/* <a href="#/about" className="about-me">
+            About Me
+          </a> */}
+        </div>
         <ul>
           <li>
             <a href="mailto:xzaiver.wolfinbarger@gmail.com">
@@ -36,17 +47,6 @@ export default function Hero() {
             </a>
           </li>
         </ul>
-        <div>
-          <h1>Hi, I'm X'Zaiver</h1>
-          <h3> Fullstack Developer</h3>
-          <p>
-            I'm a web developer based in the USA. I enjoy building fullstack
-            applications with React and Rails.
-          </p>
-          {/* <a href="#/about" className="about-me">
-            About Me
-          </a> */}
-        </div>
       </div>
     </>
   );
