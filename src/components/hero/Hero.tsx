@@ -12,7 +12,7 @@ export default function Hero() {
           <h3> Fullstack Developer</h3>
           <p>
             I'm a web developer based in the USA. I enjoy building fullstack
-            applications with React and Rails.
+            applications with React, Rails and other various technology.
           </p>
           {/* <a href="#/about" className="about-me">
             About Me
