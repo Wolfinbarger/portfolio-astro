@@ -13,7 +13,7 @@ export default function Hero() {
               <FontAwesomeIcon
                 icon={faEnvelope}
                 style={{ color: "#7ed321" }}
-                className="envelope"
+                className="social envelope"
               />
             </a>
           </li>
@@ -22,7 +22,7 @@ export default function Hero() {
               <FontAwesomeIcon
                 icon={faLinkedin}
                 style={{ color: "#7ed321" }}
-                className="linkedin"
+                className="social linkedin"
               />
             </a>
           </li>
@@ -31,22 +31,23 @@ export default function Hero() {
               <FontAwesomeIcon
                 icon={faSquareGithub}
                 style={{ color: "#7ed321" }}
-                className="github"
+                className="social github"
               />
             </a>
           </li>
         </ul>
+        <div>
+          <h1>Hi, I'm X'Zaiver</h1>
+          <h3> Fullstack Developer</h3>
+          <p>
+            I'm a web developer based in the USA. I enjoy building fullstack
+            applications with React and Rails.
+          </p>
+          {/* <a href="#/about" className="about-me">
+            About Me
+          </a> */}
+        </div>
       </div>
-      <div>
-        <h1>Hi, I'm X'Zaiver</h1>
-        <p>Fullstack Developer</p>
-        <p>
-          I'm a web developer based in the USA. I enjoy building fullstack
-          applications with React and Rails.
-        </p>
-        <a href="#/about">About Me</a>
-      </div>
-      <div>Image</div>
     </>
   );
 }
