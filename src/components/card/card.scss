@@ -3,13 +3,13 @@ $primary-color: #7ED321;
 .card {
   width: 500px;
   height: 500px;
-
-  margin: 25px;
+  margin: 15px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 4px gray;
+  position: relative;
 }
 
 .card__content {
@@ -23,7 +23,7 @@ img {
 }
 
 i {
-  color: $primary-color;
+  color: #fff;
   font-size: 30px;
   margin: 5px;
   text-align: center;
@@ -40,8 +40,10 @@ i {
 .links {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   margin-top: 20px;
+  position: absolute;
+  bottom: 10px;
 }
 
 a {
@@ -51,8 +53,15 @@ a {
   width: 25px;
   text-decoration: none;
   text-transform: uppercase;
+  color: #fff;
 }
 
 p {
   text-align: left;
+}
+
+.link {
+  background-color: $primary-color;
+  width: 110px;
+  border-radius: 8px;
 }
