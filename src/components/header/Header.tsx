@@ -4,15 +4,36 @@ import logo from "/favicon.svg?url";
 
 export default function Header() {
   return (
-    <header>
+    <header className="top">
       <nav>
         <img src={logo} className="logo" />
         <ul className="nav-list">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
+          <li>
+            <a href="#top" className="nav-link">
+              Top
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="nav-link">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="nav-link">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="#works" className="nav-link">
+              Projects
+            </a>
+          </li>
           {/* <li>Blogs</li> */}
-          <li>Contact</li>
+          <li>
+            <a href="#contact" className="nav-link">
+              Contact
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

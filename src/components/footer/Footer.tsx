@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <ul>
         <li>
           <a href="mailto:xzaiver.wolfinbarger@gmail.com">

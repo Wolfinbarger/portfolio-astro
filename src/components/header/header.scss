@@ -7,6 +7,9 @@ header {
   align-items: center;
   top: 0;
   left: 0;
+  position: sticky;
+  background-color: #fff;
+  z-index: 1;
 }
 
 nav {
@@ -44,6 +47,11 @@ nav {
 nav a {
   display: block;
   width: 30%;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 1350px) {
