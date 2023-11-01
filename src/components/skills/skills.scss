@@ -7,13 +7,16 @@ $primary-color: #7ED321;
   flex-wrap: wrap;
   overflow: hidden;
   align-items: center;
-  gap: 30px;
   box-shadow: 0 0 2px gray;
   border-radius: 8px;
   padding: 8px;
   margin-top: 150px;
+
 }
 
+.skills > h2 {
+  margin-top: 0;
+}
 .skills__content {
   display: flex;
   flex-direction: column;
