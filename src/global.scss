@@ -8,6 +8,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  //Accessibility
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
 }
 
 section::before {
